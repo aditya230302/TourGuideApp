@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "974322223519",
+    "firebase_url": "https://tourguideapp-ab25c-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "tourguideapp-ab25c",
+    "storage_bucket": "tourguideapp-ab25c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:974322223519:android:28b146d963d121e250d5aa",
+        "android_client_info": {
+          "package_name": "com.example.tourguideapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0q1b0AvZQbCA1QjZVitxFnBQ_qA_5XGw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

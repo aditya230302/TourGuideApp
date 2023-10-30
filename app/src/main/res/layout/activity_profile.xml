@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5DEDDF"
+    tools:context=".Profile">
+    <TextView
+        android:id="@+id/idTVHeading"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="TOUR - GUIDE APP"
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:background="#000759"/>
+
+
+    <Button
+        android:id="@+id/btnInsertData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnFetchData"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="center"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="93dp"
+        android:elevation="20dp"
+        android:backgroundTint="#000DAE"
+        android:text="Add Schedule"
+        android:textSize="25dp"
+        app:cornerRadius="9dp" />
+
+    <Button
+        android:id="@+id/btnFetchData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/idTVHeading"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="center"
+        android:layout_marginStart="94dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="95dp"
+        android:backgroundTint="#000DAE"
+        android:elevation="20dp"
+        android:text="Fetch Schedule"
+        android:textSize="25dp"
+        app:cornerRadius="9dp" />
+
+    <ImageView
+        android:id="@+id/map"
+        android:layout_width="262dp"
+        android:layout_height="332dp"
+        android:layout_below="@+id/btnInsertData"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="71dp"
+        android:elevation="50dp"
+        android:src="@drawable/location" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNav"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:layout_alignParentBottom="true"
+        android:elevation="2dp"
+        android:background="@color/g_dark_blue"
+        app:itemBackground="@color/g_dark_blue"
+        app:itemIconSize="24dp"
+        app:itemIconTint="#D50000"
+        app:itemTextColor="@color/black"
+        app:menu="@menu/menu1"/>
+
+
+
+</RelativeLayout>
