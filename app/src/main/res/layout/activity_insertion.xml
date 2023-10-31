@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".InsertionActivity"
-    android:background="#5DEDDF">
+    android:background="@color/white">
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -96,7 +96,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginTop="30dp"
-                android:backgroundTint="#000DAE"
+                android:backgroundTint="@color/g_black"
                 android:text="Save Schedule"
                 android:textSize="25dp"
                 android:elevation="20dp"

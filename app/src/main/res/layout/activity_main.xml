@@ -6,7 +6,7 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#5DEDDF"
+    android:background="@color/g_black"
     tools:context=".MainActivity">
     <TextView
         android:id="@+id/idTVHeading"
@@ -18,7 +18,7 @@
         android:textAlignment="center"
         android:textStyle="bold"
         android:fontFamily="sans-serif-condensed-medium"
-        android:background="#000759"/>
+        android:background="@color/g_black"/>
 
     <ListView
         android:id="@+id/listview"
@@ -36,8 +36,8 @@
         android:layout_height="58dp"
         android:layout_alignParentBottom="true"
         android:elevation="2dp"
-        android:background="@color/g_dark_blue"
-        app:itemBackground="@color/g_dark_blue"
+        android:background="@color/g_black"
+        app:itemBackground="@color/g_black"
         app:itemIconSize="24dp"
         app:itemIconTint="#D50000"
         app:itemTextColor="@color/black"

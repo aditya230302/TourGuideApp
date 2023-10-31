@@ -5,19 +5,19 @@
     android:layout_width="match_parent"
     android:orientation="vertical"
     android:layout_height="match_parent"
-    android:background="#5DEDDF"
+    android:background="@color/g_black"
     tools:context=".FetchingActivity">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:background="@color/g_dark_blue">
+        android:background="@color/g_black">
 
         <ImageButton
             android:id="@+id/back"
             android:layout_width="86dp"
             android:layout_height="match_parent"
-            android:backgroundTint="@color/g_dark_blue"
+            android:backgroundTint="@color/g_black"
             android:src="@drawable/back" />
 
         <TextView
@@ -30,7 +30,7 @@
             android:paddingStart="35dp"
             android:textStyle="bold"
             android:fontFamily="sans-serif-condensed-medium"
-            android:background="#000759"/>
+            android:background="@color/g_black"/>
 
     </LinearLayout>
 

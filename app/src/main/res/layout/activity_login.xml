@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".LoginActivity"
-    android:background="#5DEDDF">
+    android:background="@color/white">
 
 
 
@@ -25,9 +25,9 @@
         style="@style/h4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
+        android:layout_marginStart="40dp"
         android:layout_marginTop="52dp"
-        android:layout_marginBottom="52dp"
+        android:layout_marginBottom="10dp"
         android:gravity="center"
         android:text="Let's Login"
         android:textAlignment="center"
@@ -37,6 +37,16 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0"
         tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/login"
+        app:layout_constraintBottom_toTopOf="@+id/tvLetsLogin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
 
     <EditText
         android:layout_width="337dp"
@@ -82,13 +92,13 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:layout_marginBottom="10dp"
-        android:backgroundTint="#000DAE"
+        android:backgroundTint="@color/g_black"
         android:padding="15dp"
         android:text="LOGIN"
         android:textColor="@color/white"
         android:textSize="20dp"
         android:elevation="20dp"
-        app:cornerRadius="9dp"
+        app:cornerRadius="10dp"
         app:layout_constraintBottom_toTopOf="@+id/linearLayout"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

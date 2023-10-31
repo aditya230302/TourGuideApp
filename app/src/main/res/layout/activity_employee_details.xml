@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".EmployeeDetailsActivity"
-    android:background="#5DEDDF">
+    android:background="@color/white">
 
     <TextView
         android:id="@+id/tvLetsLogin"
@@ -55,7 +55,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="112dp"
         android:layout_marginTop="36dp"
-        android:backgroundTint="#000DAE"
+        android:backgroundTint="@color/g_black"
         android:text="Update Schedule"
         android:elevation="20dp"
         android:textSize="20dp"
@@ -70,7 +70,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
         android:layout_marginEnd="100dp"
-        android:backgroundTint="#000DAE"
+        android:backgroundTint="@color/g_black"
         android:text="Delete Schedule"
         android:elevation="20dp"
         android:textSize="20dp"
@@ -128,6 +128,7 @@
                 <TextView
                     android:id="@+id/tvEmpId"
                     style="@style/editText"
+                    android:background="@drawable/edittextbackground"
                     android:layout_width="match_parent"
                     android:layout_height="46dp"
                     android:layout_gravity="center"
@@ -181,6 +182,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="46dp"
                     style="@style/editText"
+
+                    android:background="@drawable/edittextbackground"
                     android:layout_gravity="center"
                     android:elevation="20dp"
                     android:gravity="center"
@@ -236,6 +239,8 @@
                     android:elevation="20dp"
                     android:layout_gravity="center"
                     android:gravity="center"
+
+                    android:background="@drawable/edittextbackground"
                     android:text=""
                     android:textColor="@color/black"
                     android:textSize="15sp"
@@ -291,6 +296,7 @@
                     android:layout_gravity="center"
                     android:gravity="center"
                     android:text=""
+                    android:background="@drawable/edittextbackground"
                     android:textColor="@color/black"
                     android:textSize="15sp"
 

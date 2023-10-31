@@ -5,7 +5,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#5DEDDF">
+    android:background="@color/g_black">
 
     <androidx.cardview.widget.CardView
         android:id="@+id/week_cardview"
@@ -64,7 +64,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="15dp"
-                    android:backgroundTint="@color/g_blue"
+                    android:backgroundTint="@color/g_black"
                     android:textColor="@color/white"
                     android:textOff="Show Details"
                     android:textOn="Hide Details" />
@@ -75,7 +75,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="1dp"
-                    android:backgroundTint="@color/g_blue"
+                    android:backgroundTint="@color/g_black"
                     android:text="Delete"
                     android:textColor="@color/white"
                     app:cornerRadius="9dp" />

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".RegisterActivity"
-    android:background="#5DEDDF">
+    android:background="@color/g_card_background">
 
     <ImageView
         android:id="@+id/imageView4"
@@ -18,13 +18,23 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="32dp"
+        android:src="@drawable/login"
+        app:layout_constraintBottom_toTopOf="@+id/tvLetsLogin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <TextView
         android:id="@+id/tvLetsLogin"
         style="@style/h4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:layout_marginBottom="60dp"
         android:gravity="center"
         android:text="Let's Register"
         android:textAlignment="center"
@@ -32,7 +42,7 @@
         app:layout_constraintBottom_toTopOf="@id/editTextEmailAddress"
         app:layout_constraintStart_toEndOf="@+id/imageView4"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0"
+        app:layout_constraintVertical_bias="0.931"
         tools:ignore="MissingConstraints" />
 
     <EditText
@@ -79,7 +89,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:layout_marginBottom="10dp"
-        android:backgroundTint="#000DAE"
+        android:backgroundTint="@color/g_black"
         android:padding="15dp"
         android:text="REGISTER"
         android:textColor="@color/white"
