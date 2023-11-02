@@ -5,20 +5,34 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.AdapterView
+import android.widget.ImageView
 import android.widget.ListView
 import android.widget.Toast
 import com.example.tourguideapp.Model
 import com.example.tourguideapp.MyAdapter
 import com.google.android.material.bottomnavigation.BottomNavigationView
+import com.google.firebase.auth.FirebaseAuth
 
 class MainActivity : AppCompatActivity() {
+    private lateinit var auth: FirebaseAuth
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
 
+
         var listView = findViewById<ListView>(R.id.listview)
         var list = mutableListOf<Model>()
+        auth = FirebaseAuth.getInstance()
+
+        var btnBack = findViewById<ImageView>(R.id.btnBack)
+
+        btnBack.setOnClickListener{
+            auth.signOut()
+            val intent = Intent(this,LoginActivity::class.java)
+            startActivity(intent)
+            finish()
+        }
 
 
         val bottomNav = findViewById<BottomNavigationView>(R.id.bottomNav)
