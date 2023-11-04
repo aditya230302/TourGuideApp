@@ -79,13 +79,3 @@ Tap on Sign out sign in the Menu To sign out
 
 
 
-
-
-
-
-
-
-       Tap on Maps Icon to 	  Tap on Sign out sign in the Menu
-open Maps			        To sign out
-
-
